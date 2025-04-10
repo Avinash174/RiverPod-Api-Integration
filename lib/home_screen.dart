@@ -24,6 +24,7 @@ class HomeScreen extends ConsumerWidget {
           PostModel postModel = PostModel.fromJson(json);
           print(postModel.title);
         },
+        child: Icon(Icons.add),
       ),
     );
   }
